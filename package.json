@@ -1,0 +1,15 @@
+{
+  "name": "hello-world",
+  "scripts": {
+    "start": "node ./server.loader.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "imba": "^2.0.0-alpha.202"
+  },
+  "description": "",
+  "version": "1.0.0",
+  "homepage": "https://github.com//hello-world",
+  "author": "Author Name (https://github.com/)",
+  "license": "ISC"
+}
