@@ -1,7 +1,7 @@
 {
   "name": "hello-world",
   "scripts": {
-    "start": "npm run build && node ./server.loader.js"
+    "start": "npm run build && node ./dist/server.loader.js"
   },
   "dependencies": {
     "express": "^4.17.1",
