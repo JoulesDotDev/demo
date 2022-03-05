@@ -1,12 +1,11 @@
-import 'app/misc'
-import 'app/router'
-import 'app/components'
-import 'app/style'
+global css html
+	ff:sans
 
-tag app < app-state
-	
-	<self [d:none] [d:block]=(#app.ready)>
-		<app-header>
-		<app-router.limited>
+tag app
+	<self>
+		<header>
+			<svg[w:200px h:auto] src='./logo.svg'>
+			<p> "Edit {<code> "app/client.imba"} and save to reload"
+			<a href="https://imba.io"> "Learn Imba"
 
 imba.mount <app>
