@@ -1,7 +1,8 @@
 {
   "name": "hello-world",
   "scripts": {
-    "start": "npm run build && node ./dist/server.loader.js"
+    "start": "npm run build && node ./dist/server.loader.js",
+    "build": "imba build server.imba -M -H -S"
   },
   "dependencies": {
     "express": "^4.17.1",
