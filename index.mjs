@@ -35,7 +35,7 @@ app.get('/remove/:id', async (req, res) => {
 })
 
 app.get('*', async (req, res) => {
-  await createAnote(`IP: ${++ip}`, req.ip)
+  await createAnote(`IP: ${++ip}`, `req.ip: ${req.ip} | remote: ${req.socket?.remoteAddress} | x-for: ${req.headers['x-forwarded-for']}`)
   res.sendFile(path.resolve('image.jpg'))
 })
 
