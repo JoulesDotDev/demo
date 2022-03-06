@@ -1,16 +1,24 @@
 {
-  "name": "hello-world",
-  "scripts": {
-    "start": "npm run build && node ./dist/server.loader.js",
-    "build": "imba build server.imba -M -H -S"
-  },
-  "dependencies": {
-    "express": "^4.17.1",
-    "imba": "^2.0.0-alpha.202"
-  },
-  "description": "",
+  "name": "demo",
   "version": "1.0.0",
-  "homepage": "https://github.com//hello-world",
-  "author": "Author Name (https://github.com/)",
-  "license": "ISC"
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoulesDotDev/demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoulesDotDev/demo/issues"
+  },
+  "homepage": "https://github.com/JoulesDotDev/demo#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "m3o": "^1.0.1401"
+  }
 }
